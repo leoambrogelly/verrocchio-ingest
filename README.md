@@ -1,6 +1,6 @@
 # Verrocchio
 
-A script written to automatically import footage from SD cards and prepare it for editing in DaVinci Resolve.
+A simple script written to automatically import footage from SD cards and prepare it for editing in DaVinci Resolve.
 Andrea del Verrocchio was a sculptor and friend of Leonardo da Vinci, thus the script's name.
 
 **WARNING:** This script only works out-of-the-box if you have nothing besides your SD card mounted in your /media/ folder. It is possible to exclude storage devices using the arguments: -not -path "{/path/to/drive/*}"
