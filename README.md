@@ -14,9 +14,11 @@ BASH and GNU Utilities are typically shipped with GNU/Linux based Operating Syst
   **Debian and Derivatives:** sudo apt-get install ffmpeg
   
   **Fedora and Derivatives:** sudo yum install ffmpeg
+  
+2. Download Script.
 
-2. Insert an SD card or external file storage device with video files on it. File extensions must be either .MOV or .MP4.
+3. Insert an SD card or external file storage device with video files on it. File extensions must be either .MOV or .MP4.
 
-3. Run Script.
+4. Run Script.
 
   If you get a permissions error, you may need to run this command: chmod +x {/path/to/file}/Verrocchio.sh
