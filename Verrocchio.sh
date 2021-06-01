@@ -3,7 +3,7 @@
 TARGETFOLDER="/home/$USER/Videos/Footage from `date +"%b %d, %Y"`"
 SOURCEFOLDER="/media/$USER"
 
-# Check for ffmpeg
+# Check for ffmpeg.
 [[ $(which ffmpeg 2>/dev/null) ]] || { echo "ERROR: ffmpeg needs to be installed. Use 'sudo apt-get install ffmpeg'";deps=1; }
 [[ $deps -ne 1 ]] || exit 1
 
